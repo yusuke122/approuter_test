@@ -1,10 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
 //"use client"//とかくとクライアントコンポーネントになる
 //デフォルトはサーバーコンポーネント
-export default function Home() {
-  return (
-    <></>
+import React from "react"
+import {HPPages} from "../components/HPPages"
+
+export default function Home()
+{
+  return(
+    <>
+    </>
   )
 }
